@@ -2,7 +2,6 @@ const removeFromArray = function(originalArray, ...numbers) {
 let newArray = [];
 for(element of originalArray )
 {
-    // console.log(!originalArray.includes(1));
     if(numbers.includes(element))
         continue;
     else
